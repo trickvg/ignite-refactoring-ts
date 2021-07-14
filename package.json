@@ -1,5 +1,5 @@
 {
-  "name": "refactoring-classes-ts",
+  "name": "ignite-refactoring-ts-chapter2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,5 +45,9 @@
   },
   "devDependencies": {
     "json-server": "^0.16.3"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/trickvg/ignite-refactoring-ts-chapter2.git",
+  "author": "Patrick Garcia <patrickvicentegarcia@gmaill.com>",
+  "license": "MIT"
 }
