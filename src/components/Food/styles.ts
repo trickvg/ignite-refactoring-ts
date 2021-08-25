@@ -1,7 +1,11 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
-  background: #f0f0f5;
+interface ContainerProps {
+  available: boolean;
+}
+
+export const Container = styled.div<ContainerProps>`
+  background: #161B22;
   border-radius: 8px;
 
   header {
